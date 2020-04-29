@@ -22,8 +22,9 @@
     </bean>
 
     <!--<bean id="coreResourceFactory" class="org.openmrs.ui.framework.resource.ResourceFactory"/>-->
-    <!--<bean id="conversionService" class="org.openmrs.module.uiframework.UiFrameworkConversionServiceFactoryBean"/>-->
-    <!--<bean id="uiUtils" class="org.openmrs.ui.framework.BasicUiUtils" init-method="init"/>-->
+    
+    <bean id="conversionService" class="org.openmrs.module.uiframework.UiFrameworkConversionServiceFactoryBean"/>
+    <bean id="uiUtils" class="org.openmrs.ui.framework.BasicUiUtils" init-method="init"/>
 
 </beans>
 
